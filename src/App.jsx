@@ -1,3 +1,13 @@
+import '../src/App.scss';
+import { Header } from "./components/Header";
+import { Home } from './components/Home';
+
 export const App = () => {
-  return <h1>Tesla Clone</h1>
+
+  return (
+    <>
+      <Header />
+      <Home />
+    </>
+  );
 }
